@@ -117,11 +117,14 @@
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",
     "wrap-ansi-cjs": "^7.0.0",
+    "yaml": "^2.8.1",
     "zod": "^3.21.4"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juyi0036-web/juyi-chr-website.git"
